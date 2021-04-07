@@ -54,7 +54,7 @@ const About = () => {
         />
         <Text
           text="Always ready for an adventure traveling to many different types of destinations.
-                               I Enjoy writing, fitness, drawing and blogging. To add to this, I'm also into cryptocurrency."
+                               I Enjoy writing, fitness, drawing, blogging and into cryptocurrency."
           className="about-info"
           variant="p"
         />

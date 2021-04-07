@@ -10,22 +10,25 @@ const Footer = () => (
   <footer className="footer">
     <ul className="footer-logos">
       <li>
-        <a href="https://www.linkedin.com/in/slavi-svec-262949204/">
+        <a
+          href="https://www.linkedin.com/in/slavi-svec-262949204/"
+          target="_blank"
+        >
           <Image src={Linkedin} />
         </a>
       </li>
       <li>
-        <a href="https://mobile.twitter.com/SlaviSvec">
+        <a href="https://mobile.twitter.com/SlaviSvec" target="_blank">
           <Image src={Twitter} />
         </a>
       </li>
       <li>
-        <a href="https://github.com/Slavi-Svec">
+        <a href="https://github.com/Slavi-Svec" target="_blank">
           <Image src={GitHub} />
         </a>
       </li>
       <li>
-        <a href="https://codepen.io/slavi-svec">
+        <a href="https://codepen.io/slavi-svec" target="_blank">
           <Image className="footer-logo" src={CodePen} />
         </a>
       </li>
