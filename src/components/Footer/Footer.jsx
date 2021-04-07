@@ -10,22 +10,22 @@ const Footer = () => (
   <footer className="footer">
     <ul className="footer-logos">
       <li>
-        <a href="https://example.com">
+        <a href="https://www.linkedin.com/in/slavi-svec-262949204/">
           <Image src={Linkedin} />
         </a>
       </li>
       <li>
-        <a href="https://example.com">
+        <a href="https://mobile.twitter.com/SlaviSvec">
           <Image src={Twitter} />
         </a>
       </li>
       <li>
-        <a href="https://example.com">
+        <a href="https://github.com/Slavi-Svec">
           <Image src={GitHub} />
         </a>
       </li>
       <li>
-        <a href="https://example.com">
+        <a href="https://codepen.io/slavi-svec">
           <Image className="footer-logo" src={CodePen} />
         </a>
       </li>
