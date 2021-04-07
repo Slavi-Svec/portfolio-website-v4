@@ -1,0 +1,114 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  min-height: 122.2px;
+  background: #ddeded;
+  /* height: 100vh; */
+  width: 100%;
+  object-fit: contain;
+}
+
+.about-description-logo {
+  height: 130px;
+  width: 130px;
+  margin-top: 80px;
+}
+
+.about-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1px;
+  color: #0c6baa;
+  font-size: 120px;
+  font-weight: 400;
+  font-family: Lemon Jelly Personal Use;
+}
+
+.about-profession {
+  color: #0a69a8;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.hero-image {
+  width: 75%;
+  margin-top: 5px;
+}
+
+.about-paragraph-title {
+  margin: 12px 0 5px 0;
+}
+
+.about-paragraph {
+  margin-bottom: 5px;
+}
+
+.about-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 122.2px;
+}
+
+.about-bio {
+  width: 40%;
+}
+
+.about-info {
+  width: 60%;
+}
+
+.about-help {
+  margin: 100px 0 5px 0;
+}
+
+.about-Work-details {
+  margin-top: 100px;
+}
+
+.about-work-together {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.about-contacting {
+  width: 60%;
+}
+
+@media screen and (max-width: 375px) {
+  .about-title {
+    font-size: 100px;
+    margin-top: -20px;
+  }
+  .hero-image {
+    width: 100%;
+    margin-top: 140px;
+  }
+  .about-description-logo {
+    margin-top: 80px;
+  }
+
+  .about-bio {
+    width: 80%;
+  }
+  .about-info {
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .about-contacting {
+    width: 80%;
+  }
+  .about-paragraph-title {
+    width: 50%;
+  }
+  .about-description-logo {
+    margin-top: 100px;
+  }
+}
