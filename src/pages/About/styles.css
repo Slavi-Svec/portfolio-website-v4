@@ -6,7 +6,7 @@
   min-height: 122.2px;
   background: #ddeded;
   /* height: 100vh; */
-  width: 100%;
+  /* width: 100%; */
   object-fit: contain;
 }
 
@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1px;
+  padding-top: 120px;
   color: #0c6baa;
   font-size: 120px;
   font-weight: 400;
@@ -31,7 +31,7 @@
   color: #0a69a8;
   font-size: 25px;
   font-weight: 400;
-  margin: 0px;
+  margin: 10px;
 }
 
 .hero-image {
@@ -81,14 +81,80 @@
   width: 60%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 540px) {
   .about-title {
     font-size: 100px;
-    margin-top: -20px;
+    margin-top: 55px;
   }
   .hero-image {
     width: 100%;
-    margin-top: 140px;
+    margin-top: 95px;
+  }
+
+  .about-profession {
+    margin: -10px;
+  }
+
+  .about-bio {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .about-title {
+    font-size: 100px;
+    margin-top: 20px;
+  }
+  .hero-image {
+    width: 100%;
+    margin-top: 195px;
+  }
+
+  .about-profession {
+    margin: -10px;
+  }
+  .about-bio {
+    width: 70%;
+  }
+  .about-info {
+    width: 71%;
+  }
+  .about-paragraph-title {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .about-title {
+    font-size: 100px;
+    margin-top: 55px;
+  }
+  .hero-image {
+    width: 100%;
+    margin-top: 155px;
+  }
+
+  .about-profession {
+    margin: -10px;
+  }
+
+  .about-bio {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about-title {
+    font-size: 100px;
+    margin-top: 6px;
+  }
+  .hero-image {
+    width: 100%;
+    margin-top: 155px;
+  }
+
+  .about-profession {
+    margin: -10px;
   }
   .about-description-logo {
     margin-top: 80px;
@@ -99,7 +165,6 @@
   }
   .about-info {
     width: 80%;
-    text-align: justify;
     text-justify: inter-word;
   }
   .about-contacting {
@@ -108,7 +173,60 @@
   .about-paragraph-title {
     width: 50%;
   }
+
   .about-description-logo {
     margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .about-title {
+    font-size: 100px;
+    margin-top: -36px;
+  }
+  .hero-image {
+    width: 100%;
+    margin-top: 175px;
+  }
+
+  .about-profession {
+    margin: -10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about-title {
+    font-size: 100px;
+    margin-top: -36px;
+  }
+  .hero-image {
+    width: 100%;
+    margin-top: 121px;
+  }
+
+  .about-profession {
+    margin: -10px;
+  }
+  .about-paragraph-title {
+    width: 58%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .about-title {
+    font-size: 100px;
+    margin-top: 2px;
+  }
+  .hero-image {
+    width: 100%;
+    margin-top: 180px;
+  }
+
+  .about-profession {
+    margin: -10px;
+  }
+
+  .about-paragraph-title {
+    width: 67%;
   }
 }

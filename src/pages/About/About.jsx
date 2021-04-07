@@ -23,7 +23,7 @@ const About = () => {
         <Text
           text="Hi, Im slavi"
           variant="h3"
-          className="about-paragraph-title"
+          className="about-paragraph-title-intro"
         />
         <Text
           className="about-bio"
