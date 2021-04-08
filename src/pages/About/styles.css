@@ -21,7 +21,8 @@
   color: #0c6baa;
   font-size: 120px;
   font-weight: 400;
-  font-family: Lemon Jelly Personal Use;
+  /* font-family: Lemon Jelly Personal Use; */
+  font-family: 'Lemon Jelly Personal Use', sans-serif;
 }
 
 .about-profession {

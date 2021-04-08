@@ -16,7 +16,8 @@
   color: #0c6baa;
   font-size: 6.8rem;
   font-weight: 400;
-  font-family: Lemon Jelly Personal Use;
+  /* font-family: Lemon Jelly Personal Use; */
+  font-family: 'Lemon Jelly Personal Use', sans-serif;
   text-align: center;
 }
 
