@@ -22,7 +22,7 @@ const WorkPage = () => {
             src={laptopTemplate}
             href={'https://aanewtown.org/'}
             title="AA Newtown Website"
-            description="A website made for Alcoholics Anonymous Newtown using create react app."
+            description="A website made for Alcoholics Anonymous Newtown using Create React App."
           />
         </section>
         <Text text="I can help." className="about-help" variant="h2" />
