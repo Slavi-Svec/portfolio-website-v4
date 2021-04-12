@@ -28,7 +28,7 @@ const About = () => {
         <Text
           className="about-bio"
           text="I'm a web developer based in Sydney, Australia.
-              Lover of all things Javascript, focusing on front end development."
+              Lover of all things Javascript, focusing on Front End Web Development."
           variant="p"
         />
         <section className="about-Work-details"></section>
