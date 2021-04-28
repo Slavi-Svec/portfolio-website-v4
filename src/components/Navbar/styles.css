@@ -60,12 +60,7 @@
   margin-top: 20px;
 }
 
-.nav-item {
-  height: 80px;
-}
-
 .nav-links {
-  color: #0c6baa;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -75,6 +70,15 @@
   font-family: brandon-grotesque, HelveticaNeue-Light, 'Helvetica Neue Light',
     'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-size: 20px;
+}
+
+.navbarText.active {
+  color: white;
+  transition: 0.7s;
+}
+
+.navbarText {
+  color: #0c6baa;
 }
 
 .nav-links:hover {

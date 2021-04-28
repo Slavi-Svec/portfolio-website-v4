@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { NavLink, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Image from '../Image/Image'
 import avatarOne from '../../images/AvatarLogo-1.png'
 import './styles.css'
@@ -8,6 +8,7 @@ const Navbar = () => {
   const [click, setClick] = useState(false)
   const [button, setButton] = useState(true)
   const [navbar, setNavbar] = useState(false)
+  const [navbarText, setNavbarText] = useState(false)
 
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
@@ -36,6 +37,16 @@ const Navbar = () => {
 
   window.addEventListener('scroll', changeBackground)
 
+  const changeText = () => {
+    if (window.scrollY >= 20) {
+      setNavbarText(true)
+    } else {
+      setNavbarText(false)
+    }
+  }
+
+  window.addEventListener('scroll', changeText)
+
   return (
     <>
       <nav className={navbar ? 'navbar active' : 'navbar'}>
@@ -47,17 +58,17 @@ const Navbar = () => {
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className="nav-item">
+            <li className={navbarText ? 'navbarText active' : 'navbarText'}>
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 About
               </Link>
             </li>
-            <li className="nav-item">
+            <li className={navbarText ? 'navbarText active' : 'navbarText'}>
               <Link to="/work" className="nav-links" onClick={closeMobileMenu}>
                 Work
               </Link>
             </li>
-            <li className="nav-item">
+            <li className={navbarText ? 'navbarText active' : 'navbarText'}>
               <Link
                 to="/contact"
                 className="nav-links"
