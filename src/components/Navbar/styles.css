@@ -177,3 +177,27 @@
     transition: 250ms;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: 105px;
+  }
+  .navbar.active {
+    height: 105px;
+  }
+  .logo {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .navbar {
+    height: 105px;
+  }
+  .navbar.active {
+    height: 105px;
+  }
+  .logo {
+    margin-top: 10px;
+  }
+}
