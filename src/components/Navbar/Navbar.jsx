@@ -13,6 +13,7 @@ const Navbar = () => {
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
 
+  //  show hamburger menu button on mobile device
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false)
@@ -27,6 +28,7 @@ const Navbar = () => {
 
   window.addEventListener('resize', showButton)
 
+  //  change background from transparent to blue when scroll down the page
   const changeBackground = () => {
     if (window.scrollY >= 20) {
       setNavbar(true)
@@ -37,6 +39,7 @@ const Navbar = () => {
 
   window.addEventListener('scroll', changeBackground)
 
+  //   chage text color in the navbar when scroll down the page
   const changeText = () => {
     if (window.scrollY >= 20) {
       setNavbarText(true)

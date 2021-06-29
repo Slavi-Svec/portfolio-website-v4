@@ -25,6 +25,15 @@ const WorkPage = () => {
             description="A website made for Alcoholics Anonymous Newtown using Create React App."
           />
         </section>
+        <section>
+          <ProjectCard
+            className="project-card-variant-one"
+            src={laptopTemplate}
+            href={'https://aanewtown.org/'}
+            title="AA Newtown Website"
+            description="A website made for Alcoholics Anonymous Newtown using Create React App."
+          />
+        </section>
         <Text text="I can help." className="about-help" variant="h2" />
         <Text
           text="Want to work together? I’d love to hear from you."
