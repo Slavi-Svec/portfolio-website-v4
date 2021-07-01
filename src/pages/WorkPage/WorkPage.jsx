@@ -3,6 +3,7 @@ import Image from '../../components/Image/Image'
 import Text from '../../components/Text/Text'
 import AvatarLogo3 from '../../images/AvatarLogo3.png'
 import laptopTemplate from '../../images/laptop-AAwebsite.png'
+import ImacTemplate from '../../images/Imac-website.png'
 import './styles.css'
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
 
@@ -22,16 +23,16 @@ const WorkPage = () => {
             src={laptopTemplate}
             href={'https://aanewtown.org/'}
             title="AA Newtown Website"
-            description="A website made for Alcoholics Anonymous Newtown using Create React App."
+            description=""
           />
         </section>
         <section>
           <ProjectCard
-            className="project-card-variant-one"
-            src={laptopTemplate}
+            className="project-card-variant-two"
+            src={ImacTemplate}
             href={'https://aanewtown.org/'}
-            title="AA Newtown Website"
-            description="A website made for Alcoholics Anonymous Newtown using Create React App."
+            title="Newtown Soberfest 2021 Website"
+            description=""
           />
         </section>
         <Text text="I can help." className="about-help" variant="h2" />
