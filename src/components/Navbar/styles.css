@@ -72,6 +72,16 @@
   font-size: 20px;
 }
 
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: #0c6baa;
+}
+
+a:hover {
+  color: white;
+}
+
 .navbarText.active {
   color: white;
   transition: 0.7s;
