@@ -14,27 +14,44 @@ const Footer = () => (
         <a
           href="https://www.linkedin.com/in/slavi-svec-262949204/"
           target="_blank"
+          rel="noreferrer"
         >
           <Image className="footer-logo" src={Linkedin} />
         </a>
       </li>
       <li>
-        <a href="https://www.medium.com/@slavi.svec" target="_blank">
+        <a
+          href="https://www.medium.com/@slavi.svec"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Image className="footer-logo" src={Medium} />
         </a>
       </li>
       <li>
-        <a href="https://mobile.twitter.com/SlaviSvec" target="_blank">
+        <a
+          href="https://mobile.twitter.com/SlaviSvec"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Image className="footer-logo" src={Twitter} />
         </a>
       </li>
       <li>
-        <a href="https://github.com/Slavi-Svec" target="_blank">
+        <a
+          href="https://github.com/Slavi-Svec"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Image className="footer-logo" src={GitHub} />
         </a>
       </li>
       <li>
-        <a href="https://codepen.io/slavi-svec" target="_blank">
+        <a
+          href="https://codepen.io/slavi-svec"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Image
             className="footer-logo"
             className="footer-logo"

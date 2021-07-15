@@ -5,7 +5,7 @@ const ProjectCard = ({ className, src, title, description, link, href }) => (
   <>
     <section className="work-body">
       <div className={className}>
-        <a href={href} target="_blank">
+        <a href={href} target="_blank" rel="noreferrer">
           <img className="work-cardImage" src={src} alt="alternate" />
         </a>
         <div className="work-textContainer">
