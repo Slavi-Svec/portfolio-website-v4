@@ -2,6 +2,7 @@ import React from 'react'
 import Image from '../../components/Image/Image'
 import Text from '../../components/Text/Text'
 import AvatarLogo2 from '../../images/AvatarLogo2.png'
+import ContactForm from '../../components/ContactForm/ContactForm'
 import './styles.css'
 
 const ContactPage = () => {
@@ -25,11 +26,7 @@ const ContactPage = () => {
           className="about-contacting"
           variant="p"
         />
-        <Text
-          text="I can be contacted at slavi.svec @gmail.com"
-          className="contact-email"
-          variant="h3"
-        />
+        <ContactForm />
       </section>
     </>
   )

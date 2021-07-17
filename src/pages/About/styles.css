@@ -33,7 +33,7 @@
 
 .hero-image {
   width: 75%;
-  margin-top: 5px;
+  margin-top: 30px;
 }
 
 .about-paragraph-title {
@@ -94,6 +94,30 @@
 
   .about-bio {
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .about-title {
+    font-size: 100px;
+    margin-top: 20px;
+  }
+  .hero-image {
+    width: 100%;
+    margin-top: 205px;
+  }
+
+  .about-profession {
+    margin: -10px;
+  }
+  .about-bio {
+    width: 70%;
+  }
+  .about-info {
+    width: 71%;
+  }
+  .about-paragraph-title {
+    width: 46%;
   }
 }
 
