@@ -1,9 +1,10 @@
 .form-container {
   width: 500px;
-  background-color: white;
-  margin: auto;
+  margin-top: 50px;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid #ddeded;
+  background: #ddeded;
+  border-radius: 4px;
 }
 
 .form-submit {
@@ -13,8 +14,29 @@
   padding: 20px;
 }
 
-@media screen and (max-width: 768px) {
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+}
+
+input {
+  background: white;
+}
+
+.form-button {
+  background: #66b8cc;
+  color: white;
+  cursor: pointer;
+  margin: 10px 0 10px 0;
+  height: 40px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 414px) {
   .form-container {
-    width: 300px;
+    width: 360px;
   }
 }

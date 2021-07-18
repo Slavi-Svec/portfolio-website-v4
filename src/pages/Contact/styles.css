@@ -10,6 +10,10 @@
   text-align: center;
 }
 
+.about-contacting {
+  /* margin-bottom: 60px; */
+}
+
 @media screen and (max-width: 375px) {
   .work-title {
     margin-bottom: 270px;
