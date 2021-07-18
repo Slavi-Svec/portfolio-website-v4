@@ -6,7 +6,7 @@ const ContactForm = () => {
     <div className="form-container">
       <form
         className="form-submit"
-        action="https://formsubmit.co/slavi.svec@gmail.com"
+        action="https://formsubmit.co/93b7501101c00ef19260a062d2e50d4f"
         method="POST"
       >
         <input type="hidden" name="_captcha" value="false" />
