@@ -4,8 +4,8 @@ import Text from '../../components/Text/Text'
 import AvatarLogo3 from '../../images/AvatarLogo3.png'
 import laptopTemplate from '../../images/laptop-AAwebsite.png'
 import ImacTemplate from '../../images/Imac-website.png'
-import './styles.css'
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
+import './styles.css'
 
 const WorkPage = () => {
   return (
