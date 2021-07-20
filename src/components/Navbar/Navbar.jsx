@@ -58,7 +58,7 @@ const Navbar = () => {
             <Image className="logo" src={avatarOne} />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            <i className={click ? 'fas fa-times fa-lg' : 'fas fa-bars fa-lg'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className={navbarText ? 'navbarText active' : 'navbarText'}>
