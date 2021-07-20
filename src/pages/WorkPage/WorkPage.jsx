@@ -31,7 +31,7 @@ const WorkPage = () => {
         <ProjectCard
           className="project-card-variant-two"
           src={ImacTemplate}
-          href={'https://aanewtown.org/'}
+          href={'https://www.newtownsoberfest.org/'}
           title="Newtown Soberfest 2021 Website"
           description=""
         />
