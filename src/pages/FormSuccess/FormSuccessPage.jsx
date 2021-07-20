@@ -15,8 +15,8 @@ const FormSuccessPage = () => {
         <Image className="success-character" src={Character} />
         <Button
           heading="Return Home"
-          className="success-buton"
-          onClick={() => window.open('https://www.slavisvec.com/')}
+          className="success-button"
+          onClick={() => window.open('https://www.slavisvec.com/', '_self')}
         />
       </div>
     </section>
