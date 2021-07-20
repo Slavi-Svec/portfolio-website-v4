@@ -1,4 +1,6 @@
 import React from 'react'
+import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
 import Image from '../../components/Image/Image'
 import Text from '../../components/Text/Text'
 import AvatarLogo3 from '../../images/AvatarLogo3.png'
@@ -11,6 +13,7 @@ import './styles.css'
 const WorkPage = () => {
   return (
     <>
+      <Navbar />
       <section className="work-section">
         <section className="page-description">
           <Text text="Work" className="work-title" variant="h2" />
@@ -35,7 +38,7 @@ const WorkPage = () => {
         <ProjectCard
           className="project-card-variant-three"
           src={PhoneTemplate}
-          href={'https://aanewtown.org/'}
+          href={'https://www.cryptotracker.link/'}
           title="CryptoTracker.link"
           description=""
         />
@@ -52,6 +55,7 @@ const WorkPage = () => {
           variant="p"
         />
       </section>
+      <Footer />
     </>
   )
 }

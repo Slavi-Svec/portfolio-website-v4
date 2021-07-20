@@ -1,4 +1,6 @@
 import React from 'react'
+import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
 import Image from '../../components/Image/Image'
 import Text from '../../components/Text/Text'
 import heroImage from '../../images/city-hero-image.jpg'
@@ -9,6 +11,7 @@ import './styles.css'
 const About = () => {
   return (
     <>
+      <Navbar />
       <section className="hero-container">
         <Text text="Im Slavi" className="about-title" variant="h2" />
         <Text
@@ -70,6 +73,7 @@ const About = () => {
           variant="p"
         />
       </section>
+      <Footer />
     </>
   )
 }
