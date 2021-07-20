@@ -1,13 +1,13 @@
-.work-body {
+.project-card-body {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: white;
 }
 
 .work-cardImage {
-  width: 70%;
+  width: 1000px;
+  padding: 0px 40px 0px 40px;
   max-width: 100%;
   margin-top: 90px;
 }
@@ -15,7 +15,7 @@
 .project-title {
   margin-top: 60px;
   color: #276791;
-  font-size: 3.8rem;
+  font-size: 60.8px;
   font-weight: 400;
 }
 
@@ -26,4 +26,10 @@
   font-weight: 300;
   font-style: normal;
   margin-top: 1.5%;
+}
+
+@media screen and (max-width: 414px) {
+  .project-title {
+    font-size: 28px;
+  }
 }

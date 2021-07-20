@@ -4,6 +4,7 @@ import Text from '../../components/Text/Text'
 import AvatarLogo3 from '../../images/AvatarLogo3.png'
 import laptopTemplate from '../../images/laptop-AAwebsite.png'
 import ImacTemplate from '../../images/Imac-website.png'
+import PhoneTemplate from '../../images/mac3.png'
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
 import './styles.css'
 
@@ -17,24 +18,28 @@ const WorkPage = () => {
       </section>
       <section className="page-description">
         <Image className="work-logo" src={AvatarLogo3} />
-        <section>
-          <ProjectCard
-            className="project-card-variant-one"
-            src={laptopTemplate}
-            href={'https://aanewtown.org/'}
-            title="AA Newtown Website"
-            description=""
-          />
-        </section>
-        <section>
-          <ProjectCard
-            className="project-card-variant-two"
-            src={ImacTemplate}
-            href={'https://aanewtown.org/'}
-            title="Newtown Soberfest 2021 Website"
-            description=""
-          />
-        </section>
+        <ProjectCard
+          className="project-card-variant-one"
+          src={laptopTemplate}
+          href={'https://aanewtown.org/'}
+          title="AA Newtown Website"
+          description=""
+        />
+        <ProjectCard
+          className="project-card-variant-two"
+          src={ImacTemplate}
+          href={'https://aanewtown.org/'}
+          title="Newtown Soberfest 2021 Website"
+          description=""
+        />
+        <ProjectCard
+          className="project-card-variant-three"
+          src={PhoneTemplate}
+          href={'https://aanewtown.org/'}
+          title="Professor Frugalologist Website"
+          description=""
+        />
+
         <Text text="I can help." className="about-help" variant="h2" />
         <Text
           text="Want to work together? I’d love to hear from you."

@@ -26,44 +26,58 @@
   margin-top: 100px;
 }
 
+/* Project card styles */
+
 .project-card-variant-one {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  padding: 4rem;
+  padding: 80px;
   background: linear-gradient(
       338.83deg,
-      #dde5ed -3.41%,
+      #eddddd -3.41%,
       rgba(255, 196, 255, 0) 52.31%
     ),
-    #eddddd;
+    #ddeddd;
   flex: 0 0 90%;
   margin-top: 5%;
   border-radius: 20px;
   position: relative;
   display: block;
   transition: all 0.4s ease-in-out;
-  padding: 1em 3em 4em;
+  padding: 16px 48px 64px;
 }
 
 .project-card-variant-two {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  padding: 4rem;
+  padding: 80px;
   background: linear-gradient(
       338.83deg,
       #dde5ed -3.41%,
       rgba(255, 196, 255, 0) 52.31%
     ),
     #eddddd;
+
   flex: 0 0 90%;
   margin-top: 5%;
   border-radius: 20px;
   position: relative;
   display: block;
   transition: all 0.4s ease-in-out;
-  padding: 1em 3em 4em;
+  padding: 16px 48px 64px;
+}
+
+.project-card-variant-three {
+  padding: 80px;
+  background: linear-gradient(
+      338.83deg,
+      #eddddd -3.41%,
+      rgba(255, 196, 255, 0) 52.31%
+    ),
+    #ddeddd;
+  flex: 0 0 90%;
+  margin-top: 5%;
+  border-radius: 20px;
+  position: relative;
+  display: block;
+  transition: all 0.4s ease-in-out;
+  padding: 16px 48px 64px;
 }
 
 @media screen and (max-width: 414px) {
@@ -76,11 +90,15 @@
   .work-title {
     margin-bottom: 204px;
   }
-}
-
-@media screen and (max-width: 411px) {
-  .work-logo {
-    margin: 32px 0 50px 0;
+  .work-cardImage {
+    padding: 0 15px;
+  }
+  .project-card-variant-one,
+  .project-card-variant-two {
+    padding: 16px 0px 30px;
+  }
+  .project-card-variant-three {
+    padding: 16px 0px 30px;
   }
 }
 
@@ -91,19 +109,20 @@
   .work-title {
     margin-bottom: 270px;
   }
-  .work-cardImage {
-    width: 170%;
-  }
+
   .work-logo {
     margin: 50px 0 50px 0;
   }
   .about-help {
     margin: 80px 0 5px 0;
   }
+  .work-cardImage {
+    padding: 0 18px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-  .project-card-variant-one {
+  .project-card {
     padding: 0em 2em 2em;
   }
 }
