@@ -1,13 +1,93 @@
-body {
+.form-success-body {
   height: 100vh;
+  background-color: #ddeded;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .form-success-container {
-  width: 500px;
-  height: 480px;
-  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+  margin-top: 20px 0 20px 0;
   padding: 10px;
-  border: 1px solid #ddeded;
-  background: #ddeded;
+  background: white;
   border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.success-character {
+  width: 350px;
+}
+
+.success-buton {
+  width: 320px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #66b8cc;
+  font-size: 40px;
+  color: #000;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.success-buton:hover {
+  color: white;
+}
+
+.success-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  color: blue;
+  /* margin: 10px 100px 20px 100px; */
+}
+
+a.menu_links {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .form-success-container {
+    width: 70%;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .form-success-container {
+    width: 80%;
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .form-success-container {
+    width: 95%;
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .form-success-container {
+    width: 96%;
+    height: 80%;
+  }
+
+  .success-character {
+    width: 280px;
+  }
+  .success-buton {
+    width: 250px;
+    height: 50px;
+  }
 }

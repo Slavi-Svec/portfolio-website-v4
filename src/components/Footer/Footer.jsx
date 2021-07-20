@@ -52,11 +52,7 @@ const Footer = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <Image
-            className="footer-logo"
-            className="footer-logo"
-            src={CodePen}
-          />
+          <Image className="footer-logo" src={CodePen} />
         </a>
       </li>
     </ul>
