@@ -4,7 +4,7 @@ import Text from '../../components/Text/Text'
 import AvatarLogo3 from '../../images/AvatarLogo3.png'
 import laptopTemplate from '../../images/laptop-AAwebsite.png'
 import ImacTemplate from '../../images/Imac-website.png'
-import PhoneTemplate from '../../images/mac3.png'
+import PhoneTemplate from '../../images/crypto-mac-20.png'
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
 import './styles.css'
 
@@ -36,7 +36,7 @@ const WorkPage = () => {
           className="project-card-variant-three"
           src={PhoneTemplate}
           href={'https://aanewtown.org/'}
-          title="Professor Frugalologist Website"
+          title="CryptoTracker.link"
           description=""
         />
 
