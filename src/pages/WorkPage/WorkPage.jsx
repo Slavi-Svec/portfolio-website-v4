@@ -7,6 +7,7 @@ import AvatarLogo3 from '../../images/AvatarLogo3.png'
 import laptopTemplate from '../../images/laptop-AAwebsite.png'
 import ImacTemplate from '../../images/Imac-website.png'
 import PhoneTemplate from '../../images/crypto-mac-20.png'
+import ProjectFour from '../../images/mac4.png'
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
 import './styles.css'
 
@@ -40,6 +41,13 @@ const WorkPage = () => {
           src={PhoneTemplate}
           href={'https://www.cryptotracker.link/'}
           title="CryptoTracker.link"
+          description=""
+        />
+        <ProjectCard
+          className="project-card-variant-four"
+          src={ProjectFour}
+          href={'https://www.professorfrugalologist.com/'}
+          title="Professor Frugalologist"
           description=""
         />
 
