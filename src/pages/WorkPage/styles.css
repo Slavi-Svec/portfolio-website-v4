@@ -115,7 +115,8 @@
   .project-card-variant-two {
     padding: 16px 0px 30px;
   }
-  .project-card-variant-three {
+  .project-card-variant-three,
+  .project-card-variant-four {
     padding: 16px 0px 30px;
   }
 }
