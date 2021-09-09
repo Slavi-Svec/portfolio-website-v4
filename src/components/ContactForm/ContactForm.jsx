@@ -36,7 +36,7 @@ const ContactForm = () => {
           className="form-field"
           type="text"
           name="message"
-          placeholder="write your message here"
+          placeholder="Write your message here"
           required
         />
         <input

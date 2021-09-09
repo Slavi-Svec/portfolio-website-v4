@@ -43,7 +43,7 @@ const About = () => {
           variant="p"
         />
         <Text
-          text=" My main focus is mobile-friendly responsive websites in ReactJS, SASS and JSX
+          text=" My main focus is mobile-friendly responsive websites in ReactJS,
                      but  I'm always willing and eager to learn new skills and technologies for coding
                             stunning webpages. "
           className="about-info"
