@@ -1,12 +1,12 @@
-import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
-import Footer from '../../components/Footer/Footer'
-import Image from '../../components/Image/Image'
-import Text from '../../components/Text/Text'
-import heroImage from '../../images/city-hero-image.jpg'
-import AvatarLogo from '../../images/AvatarLogo-1.png'
-import AvatarLogoTwo from '../../images/AvatarLogo2.png'
-import './styles.css'
+import React from "react";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
+import Image from "../../components/Image/Image";
+import Text from "../../components/Text/Text";
+import heroImage from "../../images/city-hero-image.jpg";
+import AvatarLogo from "../../images/AvatarLogo-1.png";
+import AvatarLogoTwo from "../../images/AvatarLogo2.png";
+import "./styles.css";
 
 const About = () => {
   return (
@@ -45,7 +45,7 @@ const About = () => {
         <Text
           text=" My main focus is mobile-friendly responsive websites in ReactJS,
                      but  I'm always willing and eager to learn new skills and technologies for coding
-                            stunning webpages. "
+                            stunning webpages."
           className="about-info"
           variant="p"
         />
@@ -75,7 +75,7 @@ const About = () => {
       </section>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;
