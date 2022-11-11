@@ -15,7 +15,6 @@ const About = () => {
   return (
     <>
       <Navbar />
-
       <section className="hero-container">
         <Text text="Im Slavi" className="about-title" variant="h2" />
         <Text
@@ -24,7 +23,7 @@ const About = () => {
           variant="h3"
         />
         <ReactSwitch />
-
+        <span className="emojis">🌒</span>
         <Image className="hero-image" src={heroImage} />
       </section>
       <section className="about-description">

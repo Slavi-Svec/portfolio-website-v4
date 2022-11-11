@@ -7,6 +7,12 @@
   object-fit: contain;
 }
 
+.emojis {
+  font-size: 2rem;
+  line-height: 1.2em;
+  margin: 5px 0;
+}
+
 .about-description-logo {
   height: 130px;
   width: 130px;
@@ -21,7 +27,7 @@
   color: #0c6baa;
   font-size: 120px;
   font-weight: 400;
-  font-family: 'Lemon Jelly Personal Use', sans-serif;
+  font-family: "Lemon Jelly Personal Use", sans-serif;
 }
 
 .about-profession {
