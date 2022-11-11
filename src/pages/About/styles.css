@@ -66,22 +66,8 @@
   width: 60%;
 }
 
-.about-help {
-  margin: 100px 0 5px 0;
-}
-
 .about-Work-details {
   margin-top: 100px;
-}
-
-.about-work-together {
-  width: 80%;
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-.about-contacting {
-  width: 60%;
 }
 
 @media screen and (max-width: 540px) {
@@ -194,9 +180,9 @@
     width: 80%;
     text-justify: inter-word;
   }
-  .about-contacting {
+  /* .about-contacting {
     width: 80%;
-  }
+  } */
   .about-paragraph-title {
     width: 50%;
   }

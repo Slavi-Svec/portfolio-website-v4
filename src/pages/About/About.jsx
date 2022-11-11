@@ -1,8 +1,7 @@
 import React from "react";
-import ReactSwitch from "react-switch";
-
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
+import FooterDescription from "../../components/FooterDescription/FooterDescription";
 import Image from "../../components/Image/Image";
 import Text from "../../components/Text/Text";
 import heroImage from "../../images/city-hero-image.jpg";
@@ -22,7 +21,6 @@ const About = () => {
           className="about-profession"
           variant="h3"
         />
-        <ReactSwitch />
         <span className="emojis">🌒</span>
         <Image className="hero-image" src={heroImage} />
       </section>
@@ -66,17 +64,7 @@ const About = () => {
           className="about-info"
           variant="p"
         />
-        <Text text="I can help." className="about-help" variant="h2" />
-        <Text
-          text="Want to work together? I’d love to hear from you."
-          className="about-work-together"
-          variant="h3"
-        />
-        <Text
-          text="I’m happy to collaborate on projects so if you require help on some upcoming work, or just want to say hi, than get in touch."
-          className="about-contacting"
-          variant="p"
-        />
+        <FooterDescription />
       </section>
       <Footer />
     </>
