@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import FooterDescription from "../../components/FooterDescription/FooterDescription";
+// import DarkMode from "../../components/DarkMode/DarkMode";
 import Image from "../../components/Image/Image";
 import Text from "../../components/Text/Text";
 import heroImage from "../../images/city-hero-image.jpg";
@@ -11,6 +12,10 @@ import AvatarLogoTwo from "../../images/AvatarLogo2.png";
 import "./styles.css";
 
 const About = () => {
+  const [toggle, setToggle] = useState(false);
+
+  const handleToggle = () => setToggle(!toggle);
+
   return (
     <>
       <Navbar />
@@ -21,7 +26,18 @@ const About = () => {
           className="about-profession"
           variant="h3"
         />
-        <span className="emojis">🌒</span>
+        <div className="">
+          {toggle === false ? (
+            <span className="emojis" onClick={handleToggle}>
+              🌒
+            </span>
+          ) : (
+            <span className="emojis" onClick={handleToggle}>
+              ☀️
+            </span>
+          )}
+        </div>
+
         <Image className="hero-image" src={heroImage} />
       </section>
       <section className="about-description">
