@@ -26,19 +26,22 @@ const About = () => {
           className="about-profession"
           variant="h3"
         />
-        <div className="">
-          {toggle === false ? (
-            <span className="emojis" onClick={handleToggle}>
-              🌒
-            </span>
-          ) : (
-            <span className="emojis" onClick={handleToggle}>
-              ☀️
-            </span>
-          )}
-        </div>
-
-        <Image className="hero-image" src={heroImage} />
+        {/* <div className=""> */}
+        {toggle === false ? (
+          <span className="emojis" onClick={handleToggle}>
+            🌒
+          </span>
+        ) : (
+          <span className="emojis" onClick={handleToggle}>
+            ☀️
+          </span>
+        )}
+        {/* </div> */}
+        {toggle === false ? (
+          <Image className="hero-image" src={heroImage} />
+        ) : (
+          <Image className="hero-image" src={heroImageDark} />
+        )}
       </section>
       <section className="about-description">
         <Image className="about-description-logo" src={AvatarLogo} />
