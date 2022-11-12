@@ -1,9 +1,8 @@
-import React from 'react'
-import Button from '../../components/Button/Button'
-import Character from '../../images/form-logo-1.png'
-// import Text from '../../components/Text/Text'
-import Image from '../../components/Image/Image'
-import './styles.css'
+import React from "react";
+import Button from "../../components/Button/Button";
+import Character from "../../images/form-logo-1.png";
+import Image from "../../components/Image/Image";
+import "./styles.css";
 
 const FormSuccessPage = () => {
   return (
@@ -16,11 +15,11 @@ const FormSuccessPage = () => {
         <Button
           heading="Return Home"
           className="success-button"
-          onClick={() => window.open('https://www.slavisvec.com/', '_self')}
+          onClick={() => window.open("https://www.slavisvec.com/", "_self")}
         />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default FormSuccessPage
+export default FormSuccessPage;
