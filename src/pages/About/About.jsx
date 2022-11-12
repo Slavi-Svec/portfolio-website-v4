@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { createContext, useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import FooterDescription from "../../components/FooterDescription/FooterDescription";
-// import DarkMode from "../../components/DarkMode/DarkMode";
 import Image from "../../components/Image/Image";
 import Text from "../../components/Text/Text";
 import heroImage from "../../images/city-hero-image.jpg";
@@ -11,10 +10,16 @@ import AvatarLogo from "../../images/AvatarLogo-1.png";
 import AvatarLogoTwo from "../../images/AvatarLogo2.png";
 import "./styles.css";
 
+export const ThemeContext = createContext(null);
+
 const About = () => {
   const [toggle, setToggle] = useState(false);
+  const [theme, setTheme] = useState("dark");
 
   const handleToggle = () => setToggle(!toggle);
+
+  const toggleTheme = () =>
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
 
   return (
     <>
@@ -26,17 +31,17 @@ const About = () => {
           className="about-profession"
           variant="h3"
         />
-        {/* <div className=""> */}
-        {toggle === false ? (
-          <span className="emojis" onClick={handleToggle}>
-            🌒
-          </span>
-        ) : (
-          <span className="emojis" onClick={handleToggle}>
-            ☀️
-          </span>
-        )}
-        {/* </div> */}
+        <div className="switch">
+          {toggle === false ? (
+            <span className="emojis" onClick={handleToggle}>
+              🌒
+            </span>
+          ) : (
+            <span className="emojis" onClick={handleToggle}>
+              ☀️
+            </span>
+          )}
+        </div>
         {toggle === false ? (
           <Image className="hero-image" src={heroImage} />
         ) : (
