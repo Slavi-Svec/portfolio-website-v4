@@ -27,7 +27,7 @@ const About = () => {
       <section className="hero-container">
         <Text text="Im Slavi" className="about-title" variant="h2" />
         <Text
-          text="a Web developer."
+          text="A Web Developer."
           className="about-profession"
           variant="h3"
         />
