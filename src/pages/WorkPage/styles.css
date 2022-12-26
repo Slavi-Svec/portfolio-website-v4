@@ -20,14 +20,12 @@
   text-align: center;
 }
 
-#dark .work-title {
-  padding-top: 5.625rem;
-  margin-bottom: 3.75rem;
-  color: wheat;
-  font-size: 6.8rem;
-  font-weight: 400;
-  font-family: "Lemon Jelly Personal Use", sans-serif;
-  text-align: center;
+body.light .work-title {
+  color: #0c6baa;
+}
+
+body.dark .work-title {
+  color: white;
 }
 
 .work-logo {
