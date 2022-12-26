@@ -1,28 +1,44 @@
-// import React, { useState } from "react";
-// import "./styles.css";
+import React from "react";
+import "./styles.css";
 
-// function DarkMode({ active, handleChangeActive }) {
-//   return (
-//     <>
-//       <h1>Toggle images</h1>
-//       <div className="toggle-wrapper">
-//         {active ? (
-//           <span
-//             className="active"
-//             // src={Active}
-//             alt="yellow star"
-//             onClick={() => handleChangeActive()}
-//           />
-//         ) : (
-//           <img
-//             className="inactive"
-//             // src={Inactive}
-//             alt="black and white star"
-//             onClick={() => handleChangeActive()}
-//           />
-//         )}
-//       </div>
-//     </>
-//   );
-// }
-// export default DarkMode;
+const DarkMode = () => {
+  let clickedClass = "clicked";
+  const body = document.body;
+  const lightMode = "light";
+  const darkMode = "dark";
+  let theme;
+
+  if (localStorage) {
+    theme = localStorage.getItem("theme");
+  }
+
+  if (theme === lightMode || theme === darkMode) {
+    body.classList.add(theme);
+  } else {
+    body.classList.add(lightMode);
+  }
+
+  const switchTheme = (e) => {
+    if (theme === darkMode) {
+      body.classList.replace(darkMode, lightMode);
+      e.target.classList.remove(clickedClass);
+      localStorage.setItem("theme", "light");
+      theme = lightMode;
+    } else {
+      body.classList.replace(lightMode, darkMode);
+      e.target.classList.add(clickedClass);
+      localStorage.setItem("theme", "dark");
+      theme = darkMode;
+    }
+  };
+
+  return (
+    <button
+      className={theme === "dark" ? clickedClass : ""}
+      id="darkMode"
+      onClick={(e) => switchTheme(e)}
+    ></button>
+  );
+};
+
+export default DarkMode;
