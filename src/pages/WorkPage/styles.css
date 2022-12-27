@@ -1,5 +1,5 @@
 .work-section {
-  background: #ddeded;
+  background: var(--background-color);
 }
 
 .page-description {
@@ -10,6 +10,14 @@
   min-height: 23.6375rem;
 }
 
+body.light .work-section {
+  --background-color: #ddeded;
+}
+
+body.dark .work-section {
+  background: rgb(142, 142, 179);
+}
+
 .work-title {
   padding-top: 5.625rem;
   margin-bottom: 3.75rem;
@@ -18,6 +26,7 @@
   font-weight: 400;
   font-family: "Lemon Jelly Personal Use", sans-serif;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 body.light .work-title {
@@ -26,6 +35,11 @@ body.light .work-title {
 
 body.dark .work-title {
   color: white;
+}
+
+.pen-logo {
+  width: 90px;
+  margin-top: -40px;
 }
 
 .work-logo {

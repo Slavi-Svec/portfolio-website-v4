@@ -10,8 +10,9 @@
   text-align: center;
 }
 
-.about-contacting {
-  /* margin-bottom: 60px; */
+.phone-logo {
+  width: 90px;
+  margin-top: -40px;
 }
 
 @media screen and (max-width: 375px) {

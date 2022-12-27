@@ -3,12 +3,3 @@
   margin: 0;
   padding: 0;
 }
-
-.practice {
-  font-size: 32px;
-  color: pink;
-}
-
-#dark .practice {
-  color: green;
-}

@@ -1,10 +1,19 @@
 .footer {
   height: 150px;
   background-color: #66b8cc;
+  background: var(--background-color);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 60px;
+}
+
+body.light .footer {
+  --background-color: #66b8cc;
+}
+
+body.dark .footer {
+  --background-color: var(--bluedark);
 }
 
 .footer-logos {
