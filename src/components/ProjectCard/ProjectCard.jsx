@@ -1,11 +1,11 @@
-import React from 'react'
-import './style.css'
+import React from "react";
+import "./style.css";
 
 const ProjectCard = ({ className, src, title, description, link, href }) => (
   <>
     <section className="project-card-body">
       <div className={className}>
-        <a href={href} target="_blank" rel="noreferrer">
+        <a href={href} target="_blank" rel="noopener noreferrer">
           <img className="work-cardImage" src={src} alt="alternate" />
         </a>
         <div className="work-textContainer">
@@ -16,6 +16,6 @@ const ProjectCard = ({ className, src, title, description, link, href }) => (
       </div>
     </section>
   </>
-)
+);
 
-export default ProjectCard
+export default ProjectCard;
