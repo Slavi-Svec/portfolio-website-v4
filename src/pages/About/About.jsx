@@ -38,7 +38,7 @@ const About = () => {
             variant="p"
           />
           <section className="about-Work-details"></section>
-          <Text text="What i can do" variant="h3" className="about-paragraph" />
+          <Text text="What I can do" variant="h3" className="about-paragraph" />
 
           <Text
             text="I enjoy turning difficult problems into simple and intuitive solutions,
