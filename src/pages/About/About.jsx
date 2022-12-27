@@ -23,7 +23,6 @@ const About = () => {
             variant="h3"
           />
           <div className="hero-image"></div>
-          {/* <Image className="hero-image" src={heroImage} /> */}
         </section>
         <section className="about-description">
           <Image className="about-description-logo" src={AvatarLogo} />
