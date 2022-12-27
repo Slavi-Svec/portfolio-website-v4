@@ -142,11 +142,11 @@ a:hover {
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top: -20px;
+    top: -16px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
-    height: 100vh;
+    height: 102vh;
   }
 
   .logo {
@@ -162,6 +162,9 @@ a:hover {
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    justify-content: start;
+    padding-top: 120px;
+    top: -4px;
   }
 
   .nav-links {
@@ -235,5 +238,12 @@ a:hover {
   }
   .dark-mode-icon {
     margin-top: 35px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .nav-menu {
+    height: 120vh;
+    width: 300px;
   }
 }
