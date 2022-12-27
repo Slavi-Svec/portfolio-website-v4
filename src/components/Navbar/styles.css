@@ -90,6 +90,8 @@ body.dark .navbar.active {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 17px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-out;
 }
 
 body.light .nav-links {
@@ -115,8 +117,7 @@ a:hover {
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
-  transition: all 0.2s ease-out;
+  border-bottom: 2px solid #fff;
 }
 
 .fa-bars {
