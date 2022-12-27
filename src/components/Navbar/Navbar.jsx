@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import Image from "../Image/Image";
 import avatarOne from "../../images/AvatarLogo-1.png";
+import DarkMode from "../../components/DarkMode/DarkMode";
 import "./styles.css";
 
 const Navbar = () => {
@@ -55,9 +56,14 @@ const Navbar = () => {
     <>
       <nav className={navbar ? "navbar active" : "navbar"}>
         <div className="navbar-container">
+          {/* <div className="icon-container"> */}
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <Image className="logo" src={avatarOne} />
           </Link>
+          <div className="dark-mode-icon">
+            <DarkMode />
+          </div>
+          {/* </div> */}
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
@@ -68,6 +74,7 @@ const Navbar = () => {
                 About
               </Link>
             </li>
+
             <li className={navbarText ? "navbarText active" : "navbarText"}>
               <Link to="/work" className="nav-links" onClick={closeMobileMenu}>
                 Work

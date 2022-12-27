@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import FooterDescription from "../../components/FooterDescription/FooterDescription";
-import DarkMode from "../../components/DarkMode/DarkMode";
 import Image from "../../components/Image/Image";
 import Text from "../../components/Text/Text";
 import heroImage from "../../images/city-hero-image.jpg";
@@ -19,7 +18,6 @@ const About = () => {
       <div className="App">
         <section className="hero-container">
           <Text text="Im Slavi" className="about-title" variant="h2" />
-          <DarkMode />
           <Text
             text="A Web Developer."
             className="about-profession"

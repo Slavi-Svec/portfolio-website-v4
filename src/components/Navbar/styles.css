@@ -31,6 +31,15 @@
   left: 0;
 }
 
+.dark-mode-icon {
+  position: absolute;
+  margin-left: 230px;
+  margin-top: 40px;
+  justify-self: start;
+  top: 0;
+  left: 0;
+}
+
 .logo {
   width: 85px;
   height: 85px;
@@ -63,8 +72,8 @@
   padding: 0.5rem 1rem;
   height: 100%;
   font-weight: 500;
-  font-family: brandon-grotesque, HelveticaNeue-Light, 'Helvetica Neue Light',
-    'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 22px;
 }
 
@@ -123,6 +132,9 @@ a:hover {
 
   .logo {
     margin-left: 30px;
+  }
+  .dark-mode-icon {
+    margin-left: 130px;
   }
 
   .nav-menu.active {
@@ -201,5 +213,8 @@ a:hover {
 
   .logo {
     margin-top: 10px;
+  }
+  .dark-mode-icon {
+    margin-top: 35px;
   }
 }
