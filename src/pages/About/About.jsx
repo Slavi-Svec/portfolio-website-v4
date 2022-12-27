@@ -5,7 +5,6 @@ import FooterDescription from "../../components/FooterDescription/FooterDescript
 import Image from "../../components/Image/Image";
 import Text from "../../components/Text/Text";
 import heroImage from "../../images/city-hero-image.jpg";
-import heroImageDark from "../../images/city-night.png";
 import AvatarLogo from "../../images/AvatarLogo-1.png";
 import AvatarLogoTwo from "../../images/AvatarLogo2.png";
 import "./styles.css";
@@ -23,7 +22,8 @@ const About = () => {
             className="about-profession"
             variant="h3"
           />
-          <Image className="hero-image" src={heroImage} />
+          <div className="hero-image"></div>
+          {/* <Image className="hero-image" src={heroImage} /> */}
         </section>
         <section className="about-description">
           <Image className="about-description-logo" src={AvatarLogo} />

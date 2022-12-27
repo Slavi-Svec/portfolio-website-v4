@@ -1,5 +1,5 @@
 .navbar {
-  background: #ddeded;
+  background: var(--background-color);
   height: 110px;
   display: flex;
   justify-content: center;
@@ -9,6 +9,14 @@
   top: 0;
   z-index: 999;
   transition: 0.7s;
+}
+
+body.light .navbar {
+  --background-color: #ddeded;
+}
+
+body.dark .navbar {
+  --background-color: var(--blue);
 }
 
 .navbar.active {

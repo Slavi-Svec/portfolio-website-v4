@@ -1,3 +1,8 @@
+:root {
+  --blue: rgb(26, 57, 87);
+  --white: rgb(236, 236, 236);
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
   background: var(--background-color);
@@ -8,23 +13,26 @@ body {
 
 body.light {
   --background-color: var(--white);
-  --text-color: var(--blue);
-  /* --image: url("./city-hero-image.jpg"); */
 }
 
 body.dark {
   --background-color: var(--blue);
-  --text-color: var(--white);
-  /* --image: url("./city-night-1.png"); */
 }
 
 .hero-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 122px;
-  object-fit: contain;
-  background-color: #ddeded;
+  background: var(--background-color);
+  transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
+}
+
+body.light .hero-container {
+  --background-color: #ddeded;
+}
+
+body.dark .hero-container {
+  --background-color: var(--blue);
 }
 
 .about-description-logo {
@@ -67,8 +75,18 @@ body.dark .about-profession {
 }
 
 .hero-image {
-  width: 75%;
   margin-top: 30px;
+  width: 75%;
+  transition: content 0.3s ease-in-out, color 0.6s ease-in-out;
+  content: var(--image);
+}
+
+body.light .hero-image {
+  --image: url("./city-hero-image.jpg");
+}
+
+body.dark .hero-image {
+  --image: url("./city-night.png");
 }
 
 .about-paragraph-title {
